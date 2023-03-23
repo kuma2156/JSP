@@ -14,3 +14,6 @@
 3월 21일 챕터7<br>
 웹과 DB 서블릿 연결 오라클도 코드 작성해봤다.<br>
 코드 적어야할게 많아서 오타가 많아 힘들었다.<br>
+
+3월 23일 챕터7 memberDAO,Servlet,VO <br>
+preparedstatement 형식으로 변경 및 서버 xml에서 리소스 따로 코드 만들기,
