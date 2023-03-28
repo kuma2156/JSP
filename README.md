@@ -16,4 +16,9 @@
 코드 적어야할게 많아서 오타가 많아 힘들었다.<br>
 
 3월 23일 챕터7 memberDAO,Servlet,VO <br>
-preparedstatement 형식으로 변경 및 서버 xml에서 리소스 따로 코드 만들기,
+preparedstatement 형식으로 변경 및 서버 xml에서 리소스 따로 코드 만들기,<br>
+
+3월 28일 <br>
+챕터7 패키지sec02.ex02 , sec03.ex01<br>
+로그인 신규회원 등록 기능 , 회원 삭제기능 추가<br>
+외워서 하기에는 좀 무리가 있을 거 같다.<br>
