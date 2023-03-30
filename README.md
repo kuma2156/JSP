@@ -22,3 +22,10 @@ preparedstatement 형식으로 변경 및 서버 xml에서 리소스 따로 코�
 챕터7 패키지sec02.ex02 , sec03.ex01<br>
 로그인 신규회원 등록 기능 , 회원 삭제기능 추가<br>
 외워서 하기에는 좀 무리가 있을 거 같다.<br>
+
+3월 30<br>
+챕터8 <br>
+redirect, refresh, location, dispatch 를 사용한 포워딩 <br>
+redirect 방식으로 다른 서블릿에 데이터 전달하기<br>
+dispatch를 사용한 바인딩 포워딩<br>
+챕터7에 실습내용 연동하여 테이블 띄우기<br>
