@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
   <display-name>chapter08</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -9,5 +9,33 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <context-param>
+    <param-name>menu_member</param-name>
+    <param-value>회원등록 회원조회 회원수정</param-value>
+  </context-param>
+  <context-param>
+    <param-name>menu_order</param-name>
+    <param-value>주문조회 주문등록 주문수정 주문취소</param-value>
+  </context-param>
+  <context-param>
+    <param-name>menu_goods</param-name>
+    <param-value>상품조회 상품등록 상품수정 상품삭제</param-value>
+  </context-param>
+  <servlet>
+    <description></description>
+    <display-name>initParamServlet</display-name>
+    <servlet-name>initParamServlet</servlet-name>
+    <servlet-class>sec04.ex01.initParamServlet</servlet-class>
+    <init-param>
+      <description></description>
+      <param-name>email</param-name>
+      <param-value>kuma2156@naver.com</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>tel</param-name>
+      <param-value>010-1234-5678</param-value>
+    </init-param>
+  </servlet>
 
 </web-app>
