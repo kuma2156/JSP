@@ -29,3 +29,13 @@ redirect, refresh, location, dispatch 를 사용한 포워딩 <br>
 redirect 방식으로 다른 서블릿에 데이터 전달하기<br>
 dispatch를 사용한 바인딩 포워딩<br>
 챕터7에 실습내용 연동하여 테이블 띄우기<br>
+
+4월 04<br>
+ServletContext <br>
+ 자원을 공유하고 싶을 때 사용<br>
+ ServletContext 바인딩 기능 <br>
+ web.xml 에 param을 만들어서 불러오기 <br>
+ 파일 입출력 기능으로 불러오기 <br>
+ ServletConfig <br>
+  @WebServlet() 애너테이션 사용<br>
+  
