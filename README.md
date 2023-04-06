@@ -41,3 +41,8 @@ ServletContext <br>
 <br><br>
 4월 06일<br> packege sec04.ex02 ~  <br>
 load-on-startup 기능 사용허기<br>
+loadOnstartup 속성을 추가하고 우선순위 지정하기 <br>
+chapter09 시작 <br>
+쿠키와 세션 알아보기<br>
+hidden 태그 사용해보기 <br>
+URL rewirting 을 이용한 세션 트래킹 실습  다른 서블릿으로 정보 주기<br>
