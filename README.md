@@ -39,7 +39,7 @@ ServletContext <br>
  ServletConfig <br>
   @WebServlet() 애너테이션 사용<br>
 <br><br>
-4월 06일<br> packege sec04.ex02 ~  <br>
+4월 06일<br> packege sec04.ex02 ~  (chapter09) packege sec01.ex02<br>
 load-on-startup 기능 사용허기<br>
 loadOnstartup 속성을 추가하고 우선순위 지정하기 <br>
 chapter09 시작 <br>
