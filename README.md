@@ -46,6 +46,6 @@ chapter09 시작 <br>
 쿠키와 세션 알아보기<br>
 hidden 태그 사용해보기 <br>
 URL rewirting 을 이용한 세션 트래킹 실습  다른 서블릿으로 정보 주기<br>
-<br>
-4월 11일 <br>
+<br><br>
+4월 11일 <br>sec02.ex01 ~ ex02<br>
 서블릿에서 쿠키 가져오기 <br>
