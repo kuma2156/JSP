@@ -30,7 +30,7 @@ redirect 방식으로 다른 서블릿에 데이터 전달하기<br>
 dispatch를 사용한 바인딩 포워딩<br>
 챕터7에 실습내용 연동하여 테이블 띄우기<br>
 <br><br>
-4월 04<br>
+4월 04일<br>
 ServletContext <br>
  자원을 공유하고 싶을 때 사용<br>
  ServletContext 바인딩 기능 <br>
