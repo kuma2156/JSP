@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet
 		data += "주소 : " + user_address + "<br>";
 		data += "email : " + user_email + "<br>";
 		data += "휴대전화 : " + user_hp ;
-		data += "</html></body>";
+		data += "</body></html>";
 		
 		out.print(data);
 		
