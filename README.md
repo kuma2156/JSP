@@ -72,3 +72,11 @@ JSP 주석문 사용하기
 <h3>5월 9일</h3> <br>
 JSP를 사용한 로그인 화면 <br>
 이미지리스트 출력 예제
+<br>
+<br>
+<h3>5월 11일</h3> <br>
+session 과 application 내장 객체에 바인딩 차이점<br>
+- 애플리케이션은 모든 유저, 모든 페이지, 페이지 요청, 세션에 공유될 수 있음.<br>
+- 세션은 하나의 브라우저(Chrome, Internet, Microsoft Edge 등) 내에서만 정보/값 공유한다.<br>
+ ▶ 주로 로그인 정보/상태를 유지할때 사용함.<br>
+ request , out 예외처리 사이트 만들기(xml, jsp) <br>
