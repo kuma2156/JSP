@@ -92,4 +92,6 @@ JSP는 스크립트릿의 자바 코드를 제거하고 디자이너 입장에�
  비교 연산자 , 논리 연산자, empty 연산자<br>
  표현언어 내장객체(내장변수)<br>
  param 내장 객체 사용 실습<br>
+ requestScope 사용 , pageContext 사용, 빈 사용 실습<br>
+ 
 
