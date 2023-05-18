@@ -3,12 +3,10 @@
     isELIgnored="false"  %>
 <%
    request.setCharacterEncoding("UTF-8");
-	// 표현식으로 출력하기 위해 회원 정보 가져옴.
-   String id=request.getParameter("id");
-   String pwd=request.getParameter("pwd");
-   String name= request.getParameter("name");
-   String email= request.getParameter("email");  
-%>   
+%>
+<jsp:useBean id ="m" class="sec01.ex01.MemberBean"/>
+<jsp:setProperty name="m" property = "*"/>
+
 <html>
 	<head>
 		<meta charset=”UTF-8">
@@ -22,18 +20,21 @@
 		      <td width="20%"><b>이름</b></td>
 		      <td width="20%"><b>이메일</b></td>
 		   </tr>
-		   <tr align=center>
-		      <td><%=id %> </td>
-		      <td><%=pwd%> </td>
-		      <td><%=name %> </td>
-		      <td><%=email %> </td>
-		   </tr>
+
 		   <!-- 표현언어를 사용하면 위에 String id 등등 선언 안해도 사용가능 -->
 		   <tr align=center>
-		      <td>${param.id}</td>
-		      <td>${param.pwd}</td>
-		      <td>${param.name}</td>
-		      <td>${param.email}</td>
+		      <td><%=m.getId() %></td>
+		      <td><%=m.getPwd() %></td>
+		      <td><%=m.getName() %></td>
+		      <td><%=m.getEmail() %></td>
+		   </tr>
+		   
+		   <tr align=center>
+		   <!-- 빈 id와 속성 이름으로 접근해 회원 정보 출력 -->
+		      <td>${m.id}</td>
+		      <td>${m.pwd}</td>
+		      <td>${m.name}</td>
+		      <td>${m.email}</td>
 		   </tr>
 		</table>
 	</body>

@@ -13,6 +13,6 @@
 	</head>
 	<body>
 		<!-- 포워딩 -->
-	    
+	    <jsp:forward page="member2.jsp"></jsp:forward>
 	</body>
 </html>

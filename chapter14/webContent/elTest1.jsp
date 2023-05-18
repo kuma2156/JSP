@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
-    isELIgnored="false" %>
-
+    isELIgnored="false" 
+%>
+<!-- 표현 언어 사용할 땐 isELIgnored = false  -->
 <html>
 	<head>
 	<meta charset="UTF-8">
@@ -17,8 +18,8 @@
 		\${null+10 }: ${null+10 }<br> 
 		
 		<%--문자끼리, 문자와 숫자는 더하기 연산이 안됨. --%>
-	<%--\${"안녕"+11 }: ${"안녕"+11 }<br> --%> 
-	<%--\${"hello"+"world"}:${"hello"+"world"}<br> --%> 
+		<%--\${"안녕"+11 }: ${"안녕"+11 }<br> --%> 
+		<%--\${"hello"+"world"}:${"hello"+"world"}<br> --%> 
 		 
 		 
 		<h2>여러 가지 산술 연산자</h2>		   
