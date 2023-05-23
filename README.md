@@ -93,5 +93,10 @@ JSP는 스크립트릿의 자바 코드를 제거하고 디자이너 입장에�
  표현언어 내장객체(내장변수)<br>
  param 내장 객체 사용 실습<br>
  requestScope 사용 , pageContext 사용, 빈 사용 실습<br>
- 
+ <br>
+<br>
+<h3>5월 23일</h3><br>
+Collection 객체 사용 실습<br>
+HashMap 사용 실습<br>
+표현언어로 바인딩 속성 출력하기<br>
 
