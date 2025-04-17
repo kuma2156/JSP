@@ -3,6 +3,20 @@
 JSP와 서블릿, 웹 프로그래밍 전반에 대해 배운 내용을 정리한 학습 로그입니다.  
 매 수업마다 어떤 내용을 배웠고, 어떻게 실습했는지 기록했습니다.
 
+<div align="left">
+    <h1>💻 학습자</h1>
+    <table>
+        <tr>
+            <td align="center"><img src="https://github.com/user-attachments/assets/61049fd5-5e06-4b17-bb51-d925ea3e68dc" width="250"></td>
+        </tr>
+        <tr>
+            <td align="center"><b>김명규</b></td>
+        </tr>
+        <tr>
+            <td align="center"><b>https://github.com/kuma2156</b></td>
+        </tr>
+    </table>
+</div>
 ---
 
 ## 🗓️ 학습 일지 요약
